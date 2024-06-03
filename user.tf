@@ -10,7 +10,7 @@ resource "aws_iam_user" "ak" {
   }
 }
 
-resource "aws_iam_access_key" "lb" {
+resource "aws_iam_access_key" "ak" {
   user = aws_iam_user.ak.name
 }
 
